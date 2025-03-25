@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `T_H_A_R_U - M_D\n\nහායි\nසුබ දවසක්`;
+            const sid = `SHADOW-MAX\n\n>හායි\n>සුබ දවසක්`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
